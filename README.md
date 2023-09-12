@@ -1,12 +1,11 @@
 # elyza-fschat-api
-日本語LLM「elyza/ELYZA-japanese-Llama-2-7b-instruct」をFastChatのAPIとして動かすコンテナ。  
-なお、あくまでも利用例として提示するだけなので、動作は保証できません。  
-また、サポートや更新も基本的にはできません。  
+日本語LLM「elyza/ELYZA-japanese-Llama-2-7b-instruct」をFastChatのAPIとして動かすコンテナの例。  
 
 ## 実行方法
 フォルダーに移動してdocker-composeを実行
 
 ```
+git clone https://github.com/shimiz9/elyza-fschat-api.git
 cd elyza-fschat-api
 docker-compose up --build
 ```
